@@ -1,7 +1,6 @@
 var request = context.action('request');
 var response = context.action('response');
 var filterChain = context.action('filterChain');
-var sys=Java.type('java.lang.System');
 function main() {
 	var res = {};
     go();
